@@ -17,7 +17,7 @@
   },
   "radius_km": 32.2
  },
- "generated": "2026-11-25T19:48:40+00:00",
+ "generated": "2026-11-25T20:04:07+00:00",
  "window_days": 14,
  "baseline_years": 5,
  "groups": [
@@ -81,7 +81,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476073225/medium.jpg",
+      "attribution": "(c) Manuel Raab, some rights reserved (CC BY-NC), uploaded by Manuel Raab",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -188,7 +192,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530721418/medium.jpg",
+      "attribution": "(c) Judy Gallagher, some rights reserved (CC BY)",
+      "license": "cc-by"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -317,7 +325,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26994711/medium.jpeg",
+      "attribution": "(c) guyincognito, some rights reserved (CC BY-NC), uploaded by guyincognito",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -358,7 +370,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168915535/medium.jpg",
+      "attribution": "(c) Joshlaymon, some rights reserved (CC BY-SA)",
+      "license": "cc-by-sa"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -410,7 +426,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249715786/medium.jpeg",
+      "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -539,7 +559,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185927970/medium.jpg",
+      "attribution": "(c) spinomaly, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -613,7 +637,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86267736/medium.jpg",
+      "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -673,7 +701,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359094470/medium.jpg",
+      "attribution": "(c) David Yeager, some rights reserved (CC BY-NC), uploaded by David Yeager",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -733,7 +765,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251848544/medium.jpg",
+      "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
+      "license": "cc-by"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -763,7 +799,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470828134/medium.jpg",
+      "attribution": "(c) Dan Vickers, some rights reserved (CC BY), uploaded by Dan Vickers",
+      "license": "cc-by"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -837,7 +877,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/353707196/medium.jpg",
+      "attribution": "(c) Matt Felperin, some rights reserved (CC BY), uploaded by Matt Felperin",
+      "license": "cc-by"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -867,7 +911,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351885428/medium.jpeg",
+      "attribution": "(c) Jorge A. Pérez Torres, some rights reserved (CC BY-NC), uploaded by Jorge A. Pérez Torres",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -993,7 +1041,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225768/medium.jpg",
+      "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -1160,7 +1212,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/175249050/medium.jpeg",
+      "attribution": "(c) edporopat, some rights reserved (CC BY-NC), uploaded by edporopat",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -1201,7 +1257,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191080234/medium.jpg",
+      "attribution": "(c) bwood708, some rights reserved (CC BY-NC), uploaded by bwood708",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
@@ -1242,7 +1302,11 @@
      "sources": [
       "ebird"
      ],
-     "photo": null,
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169257315/medium.jpg",
+      "attribution": "(c) Mariano Fernández Kloster, some rights reserved (CC BY-NC), uploaded by Mariano Fernández Kloster",
+      "license": "cc-by-nc"
+     },
      "sightings": [
       {
        "source": "ebird",
