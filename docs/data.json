@@ -1,1 +1,1266 @@
-{"site":{"name":"Boise","radius_km":32.2,"lat":0,"lng":0},"generated":"2026-01-01T00:00:00+00:00","window_days":14,"baseline_years":5,"groups":[]}
+{
+ "site": {
+  "name": "Boise",
+  "tagline": "who's visiting the City of Trees?",
+  "lat": 43.615,
+  "lng": -116.2023,
+  "radius_miles": 20,
+  "theme": {
+   "sky": "#a9d3f2",
+   "accent": "#2f7fb8",
+   "birds": [
+    "#d4572a",
+    "#2f8a5b",
+    "#3b6fb6",
+    "#c58a00"
+   ]
+  },
+  "radius_km": 32.2
+ },
+ "generated": "2026-11-25T19:48:40+00:00",
+ "window_days": 14,
+ "baseline_years": 5,
+ "groups": [
+  {
+   "id": "birds",
+   "label": "Birds",
+   "emoji": "🐦",
+   "recent_species_total": 51,
+   "items": [
+    {
+     "taxon_id": 7120,
+     "sci": "Cairina moschata",
+     "common": "Muscovy Duck",
+     "flags": [
+      "rare"
+     ],
+     "baseline_count": 1,
+     "recent_count": 2,
+     "sources": [
+      "inat"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/765142768/medium.jpg",
+      "attribution": "(c) jamesjarrett00, some rights reserved (CC BY-NC)",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "inat",
+       "date": "2026-11-17",
+       "place": "Boise State University District, Boise, ID, USA",
+       "lat": 43.6128024003,
+       "lng": -116.2235910882,
+       "url": "https://www.inaturalist.org/observations/415521702",
+       "quality": "research",
+       "obscured": false
+      },
+      {
+       "source": "inat",
+       "date": "2026-11-14",
+       "place": "Boise, ID, US",
+       "lat": 43.61252,
+       "lng": -116.2230916667,
+       "url": "https://www.inaturalist.org/observations/414785820",
+       "quality": "research",
+       "obscured": false
+      }
+     ],
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Mareca penelope",
+     "common": "Eurasian Wigeon",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 10:16",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412891870",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:21",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412870850",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 14:40",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412494660",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 14:37",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": null,
+       "url": "https://ebird.org/checklist/S412494402",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 14:16",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412932190",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 14:16",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412932190",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 14:16",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412932190",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 16:03",
+       "place": "Julius M Kleiner Memorial Park",
+       "lat": 43.6242031,
+       "lng": -116.3466768,
+       "count": null,
+       "url": "https://ebird.org/checklist/S411264116",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "eurwig",
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Cyanocitta cristata",
+     "common": "Blue Jay",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:13",
+       "place": "Boise River Greenbelt--Bethine Church Section",
+       "lat": 43.58203,
+       "lng": -116.16031,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412941509",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 13:29",
+       "place": "Norfolk Way, Boise US-ID 43.56893, -116.15869",
+       "lat": 43.56893,
+       "lng": -116.158687,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412724181",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 08:04",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412449366",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 13:59",
+       "place": "2909 S Harmony St, Boise US-ID 43.57575, -116.16592",
+       "lat": 43.575749,
+       "lng": -116.165925,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412168934",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 10:30",
+       "place": "1477 E Seaside Ct",
+       "lat": 43.5778,
+       "lng": -116.1646,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S412753109",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 10:22",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411628749",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 09:25",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411582856",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 18:55",
+       "place": "Boise River Greenbelt at Parkcenter Bridge Pond Mile SE 4",
+       "lat": 43.5753621,
+       "lng": -116.1520797,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S410876331",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 13:44",
+       "place": "Boise River Greenbelt at Parkcenter Bridge Pond Mile SE 4",
+       "lat": 43.5753621,
+       "lng": -116.1520797,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410822268",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-15",
+       "time": "2026-11-15 10:27",
+       "place": "Boise River Greenbelt--Bethine Church Section",
+       "lat": 43.58203,
+       "lng": -116.16031,
+       "count": 4,
+       "url": "https://ebird.org/checklist/S410785831",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "blujay",
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Sphyrapicus nuchalis",
+     "common": "Red-naped Sapsucker",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:13",
+       "place": "Boise River Greenbelt--Bethine Church Section",
+       "lat": 43.58203,
+       "lng": -116.16031,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412941509",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:13",
+       "place": "Boise River Greenbelt--Bethine Church Section",
+       "lat": 43.58203,
+       "lng": -116.16031,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412941509",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "rensap",
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Dryocopus pileatus",
+     "common": "Pileated Woodpecker",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:13",
+       "place": "Boise River Greenbelt--Bethine Church Section",
+       "lat": 43.58203,
+       "lng": -116.16031,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412941509",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:13",
+       "place": "Boise River Greenbelt--Bethine Church Section",
+       "lat": 43.58203,
+       "lng": -116.16031,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412941509",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 08:13",
+       "place": "Boise River Greenbelt--Bethine Church Section",
+       "lat": 43.58203,
+       "lng": -116.16031,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412941509",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "pilwoo",
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Haemorhous purpureus",
+     "common": "Purple Finch",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-24",
+       "time": "2026-11-24 07:47",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412897689",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 10:03",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412709522",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 13:53",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412514797",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 11:51",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412483651",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 11:19",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412479565",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 11:13",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412461328",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 11:13",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412461328",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 11:13",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S412461328",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 10:24",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S412553628",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-22",
+       "time": "2026-11-22 10:24",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S412553628",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "purfin",
+     "latest": "2026-11-24",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Buteo lineatus",
+     "common": "Red-shouldered Hawk",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-23",
+       "time": "2026-11-23 16:12",
+       "place": "1800 West University Drive, Boise, Idaho, US (43.602, -116.203)",
+       "lat": 43.6023429,
+       "lng": -116.2025676,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412770764",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 09:08",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412116597",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:49",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412079016",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 08:49",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412079070",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 09:25",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411582856",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "reshaw",
+     "latest": "2026-11-23",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Selasphorus platycercus",
+     "common": "Broad-tailed Hummingbird",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-21",
+       "time": "2026-11-21 11:42",
+       "place": "Home",
+       "lat": 43.639981,
+       "lng": -116.211721,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S412129768",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "brthum",
+     "latest": "2026-11-21",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Antigone canadensis",
+     "common": "Sandhill Crane",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-20",
+       "time": "2026-11-20 12:28",
+       "place": "4164 W Farlam Dr, Meridian US-ID 43.61106, -116.44582",
+       "lat": 43.611061,
+       "lng": -116.445825,
+       "count": 30,
+       "url": "https://ebird.org/checklist/S411840335",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "sancra",
+     "latest": "2026-11-20",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Strix varia",
+     "common": "Barred Owl",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 17:45",
+       "place": "Hidden Springs - home",
+       "lat": 43.7237871,
+       "lng": -116.2507749,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411679279",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "brdowl",
+     "latest": "2026-11-19",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Passerina amoena",
+     "common": "Lazuli Bunting",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 13:30",
+       "place": "Home",
+       "lat": 43.5746159,
+       "lng": -116.1528581,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411644256",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "lazbun",
+     "latest": "2026-11-19",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Aythya affinis",
+     "common": "Lesser Scaup",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 12:02",
+       "place": "Lucky Peak SP--Spring Shores Marina Unit",
+       "lat": 43.5935242,
+       "lng": -115.9786534,
+       "count": 29,
+       "url": "https://ebird.org/checklist/S411697132",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "lessca",
+     "latest": "2026-11-19",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Aechmophorus occidentalis",
+     "common": "Western Grebe",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 12:02",
+       "place": "Lucky Peak SP--Spring Shores Marina Unit",
+       "lat": 43.5935242,
+       "lng": -115.9786534,
+       "count": 10,
+       "url": "https://ebird.org/checklist/S411697132",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 12:09",
+       "place": "Lucky Peak SP--Spring Shores Marina Unit",
+       "lat": 43.5935242,
+       "lng": -115.9786534,
+       "count": 6,
+       "url": "https://ebird.org/checklist/S411255553",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 12:09",
+       "place": "Lucky Peak SP--Spring Shores Marina Unit",
+       "lat": 43.5935242,
+       "lng": -115.9786534,
+       "count": 6,
+       "url": "https://ebird.org/checklist/S411255553",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 12:09",
+       "place": "Lucky Peak SP--Spring Shores Marina Unit",
+       "lat": 43.5935242,
+       "lng": -115.9786534,
+       "count": 6,
+       "url": "https://ebird.org/checklist/S411255553",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 12:18",
+       "place": "Lucky Peak SP--Spring Shores Marina Unit",
+       "lat": 43.5935242,
+       "lng": -115.9786534,
+       "count": 10,
+       "url": "https://ebird.org/checklist/S410579311",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "wesgre",
+     "latest": "2026-11-19",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Anas acuta",
+     "common": "Northern Pintail",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-19",
+       "time": "2026-11-19 12:02",
+       "place": "Lucky Peak SP--Spring Shores Marina Unit",
+       "lat": 43.5935242,
+       "lng": -115.9786534,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411697132",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "norpin",
+     "latest": "2026-11-19",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Zonotrichia atricapilla",
+     "common": "Golden-crowned Sparrow",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-18",
+       "time": "2026-11-18 09:25",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411582856",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "gocspa",
+     "latest": "2026-11-18",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Cardellina pusilla",
+     "common": "Wilson's Warbler",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 14:14",
+       "place": "stakeout Prothonotary Warbler, Barber Valley (Nov 2026)",
+       "lat": 43.5678259,
+       "lng": -116.1258082,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411250482",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 14:10",
+       "place": "3760 S Harris Ranch Ave, Boise US-ID 43.56764, -116.12594",
+       "lat": 43.567642,
+       "lng": -116.125943,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411270498",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 14:10",
+       "place": "3760 S Harris Ranch Ave, Boise US-ID 43.56764, -116.12594",
+       "lat": 43.567642,
+       "lng": -116.125943,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411271454",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 14:10",
+       "place": "3760 S Harris Ranch Ave, Boise US-ID 43.56764, -116.12594",
+       "lat": 43.567642,
+       "lng": -116.125943,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411282710",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 14:10",
+       "place": "3760 S Harris Ranch Ave, Boise US-ID 43.56764, -116.12594",
+       "lat": 43.567642,
+       "lng": -116.125943,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411398398",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-13",
+       "time": "2026-11-13 11:28",
+       "place": "3752 S Harris Ranch Ave, Boise US-ID 43.56780, -116.12663",
+       "lat": 43.567801,
+       "lng": -116.12663,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410808313",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-11",
+       "time": "2026-11-11 15:57",
+       "place": "3760 South Harris Ranch Avenue, Boise, Idaho, US (43.568, -116.126)",
+       "lat": 43.5675968,
+       "lng": -116.1262998,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S409859495",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "wlswar",
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Haemorhous cassinii",
+     "common": "Cassin's Finch",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:00",
+       "place": "Clear Creek Drive (Boise home)",
+       "lat": 43.5909832,
+       "lng": -116.3173896,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411209861",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:00",
+       "place": "Clear Creek Drive (Boise home)",
+       "lat": 43.5909832,
+       "lng": -116.3173896,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411209861",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:00",
+       "place": "Clear Creek Drive (Boise home)",
+       "lat": 43.5909832,
+       "lng": -116.3173896,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411209861",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 10:52",
+       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
+       "lat": 43.59484,
+       "lng": -116.260708,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411015592",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 10:52",
+       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
+       "lat": 43.59484,
+       "lng": -116.260708,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411015592",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 10:52",
+       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
+       "lat": 43.59484,
+       "lng": -116.260708,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411015592",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "casfin",
+     "latest": "2026-11-17",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Passerculus sandwichensis",
+     "common": "Savannah Sparrow",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 08:09",
+       "place": "Hyatt Hidden Lakes Reserve",
+       "lat": 43.652744,
+       "lng": -116.2965488,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410988044",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 07:07",
+       "place": "Hubbard Rec. Area",
+       "lat": 43.5145,
+       "lng": -116.3565,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S410496664",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-13",
+       "time": "2026-11-13 17:06",
+       "place": "Home",
+       "lat": 43.7115401,
+       "lng": -116.3180134,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410284268",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "savspa",
+     "latest": "2026-11-16",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Dumetella carolinensis",
+     "common": "Gray Catbird",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-14",
+       "time": "2026-11-14 16:47",
+       "place": "Harris Ranch - Spring Creek",
+       "lat": 43.57185,
+       "lng": -116.118888,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410582388",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "grycat",
+     "latest": "2026-11-14",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Picoides arcticus",
+     "common": "Black-backed Woodpecker",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-13",
+       "time": "2026-11-13 14:24",
+       "place": "Hulls Gulch Reserve, Boise US-ID 43.64228, -116.18533",
+       "lat": 43.642279,
+       "lng": -116.185326,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410301125",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-13",
+       "time": "2026-11-13 14:24",
+       "place": "Hulls Gulch Reserve, Boise US-ID 43.64228, -116.18533",
+       "lat": 43.642279,
+       "lng": -116.185326,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S410284563",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "bkbwoo",
+     "latest": "2026-11-13",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Protonotaria citrea",
+     "common": "Prothonotary Warbler",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-13",
+       "time": "2026-11-13 11:28",
+       "place": "3752 S Harris Ranch Ave, Boise US-ID 43.56780, -116.12663",
+       "lat": 43.567801,
+       "lng": -116.12663,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410808313",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-11",
+       "time": "2026-11-11 15:57",
+       "place": "3760 South Harris Ranch Avenue, Boise, Idaho, US (43.568, -116.126)",
+       "lat": 43.5675968,
+       "lng": -116.1262998,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S409859495",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "prowar",
+     "latest": "2026-11-13",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Spatula cyanoptera",
+     "common": "Cinnamon Teal",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": null,
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-13",
+       "time": "2026-11-13 11:00",
+       "place": "Veteran's Memorial Park",
+       "lat": 43.6346929,
+       "lng": -116.2375165,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S410235707",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "cintea",
+     "latest": "2026-11-13",
+     "first_flagged": "2026-11-25"
+    }
+   ]
+  }
+ ]
+}
