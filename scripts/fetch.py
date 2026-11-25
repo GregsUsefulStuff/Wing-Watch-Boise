@@ -22,7 +22,7 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 INAT = os.environ.get("INAT_BASE", "https://api.inaturalist.org/v1")
 EBIRD = os.environ.get("EBIRD_BASE", "https://api.ebird.org/v2")
-EBIRD_KEY = os.environ.get("EBIRD_API_KEY", "")
+EBIRD_KEY = os.environ.get("EBIRD_API_KEY", "").strip()
 SLEEP = float(os.environ.get("API_SLEEP", "1.1"))  # iNat asks for <= ~60 requests/min
 UA = "wildlife-watch-dashboard/1.0 (personal GitHub Pages project)"
 RANKS_OK = {"species", "subspecies", "variety", "hybrid", "form"}
@@ -191,6 +191,34 @@ def months_around(dates):
     return sorted(ms)
 
 
+
+# ------------------------------------------------------------ fallback photos
+def taxon_photo(tid, sci, cache):
+    """Standard iNaturalist photo for a species (openly licensed), cached by name."""
+    key = (sci or "").lower()
+    if key in cache:
+        return cache[key]
+    photo = None
+    try:
+        if tid:
+            res = inat(f"/taxa/{tid}", {}).get("results", [])
+            dp = (res[0].get("default_photo") if res else None) or {}
+        else:
+            dp = {}
+            for r in inat("/taxa", {"q": sci, "per_page": 5, "is_active": "true"}).get("results", []):
+                if r.get("name", "").lower() == key:
+                    dp = r.get("default_photo") or {}
+                    break
+        url = dp.get("medium_url") or (dp.get("url") or "").replace("square", "medium")
+        if url and dp.get("license_code"):
+            photo = {"url": url, "attribution": dp.get("attribution"), "license": dp["license_code"]}
+    except Exception as e:
+        log(f"  photo lookup failed for {sci}: {type(e).__name__}: {e}")
+        return None  # don't cache failures
+    cache[key] = photo
+    return photo
+
+
 # -------------------------------------------------------------------- eBird
 def ebird_notable(site, back):
     if not EBIRD_KEY:
@@ -225,7 +253,7 @@ def ebird_notable(site, back):
 
 
 # ------------------------------------------------------------------- one group
-def build_group(g, cfg, site, taxa_cache, baseline_cache, history, today):
+def build_group(g, cfg, site, taxa_cache, baseline_cache, history, today, photo_cache):
     log(f"[{g['id']}]")
     window = cfg.get("window_days", 14)
     years = cfg.get("baseline_years", 5)
@@ -313,6 +341,10 @@ def build_group(g, cfg, site, taxa_cache, baseline_cache, history, today):
             it["code"] = e["code"]
             it["sightings"].extend(e["sightings"])
 
+    for it in items.values():
+        if not it["photo"]:
+            it["photo"] = taxon_photo(it.get("taxon_id"), it["sci"], photo_cache)
+
     out = []
     for key, it in items.items():
         it["sightings"].sort(key=lambda s: s.get("time") or s.get("date") or "", reverse=True)
@@ -337,12 +369,13 @@ def main():
     taxa_cache = load(STATE / "taxa.json", {})
     baseline_cache = load(STATE / "baseline.json", {})
     history = load(STATE / "history.json", {})
+    photo_cache = load(STATE / "photos.json", {})
     prev = {g["id"]: g for g in load(DOCS / "data.json", {}).get("groups", [])}
 
     groups, failures = [], 0
     for g in cfg["groups"]:
         try:
-            groups.append(build_group(g, cfg, site, taxa_cache, baseline_cache, history, today))
+            groups.append(build_group(g, cfg, site, taxa_cache, baseline_cache, history, today, photo_cache))
         except Exception as e:  # keep the page alive with last good data
             failures += 1
             log(f"  FAILED {g['id']}: {type(e).__name__}: {e}")
@@ -360,6 +393,7 @@ def main():
     save(STATE / "taxa.json", taxa_cache)
     save(STATE / "baseline.json", baseline_cache)
     save(STATE / "history.json", history)
+    save(STATE / "photos.json", photo_cache)
     save(DOCS / "data.json", {
         "site": {**site, "radius_km": round(site["radius_miles"] * 1.609344, 1)},
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
