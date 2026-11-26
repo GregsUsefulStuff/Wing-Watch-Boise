@@ -86,5 +86,13 @@
  "birds:spatula cyanoptera": {
   "first_flagged": "2026-11-25",
   "last_seen": "2026-11-26"
+ },
+ "birds:colaptes auratus": {
+  "first_flagged": "2026-11-26",
+  "last_seen": "2026-11-26"
+ },
+ "birds:zonotrichia querula": {
+  "first_flagged": "2026-11-26",
+  "last_seen": "2026-11-26"
  }
 }
