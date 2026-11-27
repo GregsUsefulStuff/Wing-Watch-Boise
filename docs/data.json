@@ -17,7 +17,7 @@
   },
   "radius_km": 32.2
  },
- "generated": "2026-11-26T23:54:39+00:00",
+ "generated": "2026-11-27T12:45:06+00:00",
  "window_days": 14,
  "baseline_years": 5,
  "groups": [
@@ -25,7 +25,7 @@
    "id": "birds",
    "label": "Birds",
    "emoji": "🐦",
-   "recent_species_total": 51,
+   "recent_species_total": 49,
    "items": [
     {
      "taxon_id": 7120,
@@ -217,7 +217,7 @@
        "lat": 43.61894,
        "lng": -116.219856,
        "count": 1,
-       "url": "https://ebird.org/checklist/S413320170",
+       "url": "https://ebird.org/checklist/S413320171",
        "quality": "unreviewed"
       },
       {
@@ -228,7 +228,7 @@
        "lat": 43.61894,
        "lng": -116.219856,
        "count": 1,
-       "url": "https://ebird.org/checklist/S413320171",
+       "url": "https://ebird.org/checklist/S413320170",
        "quality": "unreviewed"
       },
       {
@@ -639,6 +639,17 @@
        "lat": 43.614321,
        "lng": -116.2247446,
        "count": 1,
+       "url": "https://ebird.org/checklist/S413116467",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 11:36",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
        "url": "https://ebird.org/checklist/S413116460",
        "quality": "unreviewed"
       },
@@ -651,17 +662,6 @@
        "lng": -116.2247446,
        "count": 1,
        "url": "https://ebird.org/checklist/S413116469",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 11:36",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413116467",
        "quality": "unreviewed"
       },
       {
@@ -701,40 +701,6 @@
      "code": "purfin",
      "latest": "2026-11-26",
      "first_flagged": "2026-11-25"
-    },
-    {
-     "taxon_id": null,
-     "sci": "Zonotrichia querula",
-     "common": "Harris's Sparrow",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64430/medium.jpg",
-      "attribution": "(c) Norm Townsend, some rights reserved (CC BY-NC-ND)",
-      "license": "cc-by-nc-nd"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 13:02",
-       "place": "Blacks Creek Bird Reserve",
-       "lat": 43.4584433,
-       "lng": -116.1426544,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413136045",
-       "quality": "unreviewed"
-      }
-     ],
-     "code": "harspa",
-     "latest": "2026-11-25",
-     "first_flagged": "2026-11-26"
     },
     {
      "taxon_id": null,
@@ -798,6 +764,40 @@
      "code": "savspa",
      "latest": "2026-11-25",
      "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Zonotrichia querula",
+     "common": "Harris's Sparrow",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64430/medium.jpg",
+      "attribution": "(c) Norm Townsend, some rights reserved (CC BY-NC-ND)",
+      "license": "cc-by-nc-nd"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 13:02",
+       "place": "Blacks Creek Bird Reserve",
+       "lat": 43.4584433,
+       "lng": -116.1426544,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413136045",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "harspa",
+     "latest": "2026-11-25",
+     "first_flagged": "2026-11-26"
     },
     {
      "taxon_id": null,
