@@ -17,7 +17,7 @@
   },
   "radius_km": 32.2
  },
- "generated": "2026-11-27T23:32:22+00:00",
+ "generated": "2026-11-28T11:59:38+00:00",
  "window_days": 14,
  "baseline_years": 5,
  "groups": [
@@ -25,7 +25,7 @@
    "id": "birds",
    "label": "Birds",
    "emoji": "🐦",
-   "recent_species_total": 50,
+   "recent_species_total": 47,
    "items": [
     {
      "taxon_id": 7120,
@@ -67,6 +67,239 @@
       }
      ],
      "latest": "2026-11-17",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Haemorhous cassinii",
+     "common": "Cassin's Finch",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225768/medium.jpg",
+      "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 13:51",
+       "place": "2991 N Leisure Dr, Boise US-ID 43.63194, -116.25834",
+       "lat": 43.631939,
+       "lng": -116.258337,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413584968",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:00",
+       "place": "Clear Creek Drive (Boise home)",
+       "lat": 43.5909832,
+       "lng": -116.3173896,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411209861",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:00",
+       "place": "Clear Creek Drive (Boise home)",
+       "lat": 43.5909832,
+       "lng": -116.3173896,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411209861",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-17",
+       "time": "2026-11-17 08:00",
+       "place": "Clear Creek Drive (Boise home)",
+       "lat": 43.5909832,
+       "lng": -116.3173896,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411209861",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 10:52",
+       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
+       "lat": 43.59484,
+       "lng": -116.260708,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411015592",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 10:52",
+       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
+       "lat": 43.59484,
+       "lng": -116.260708,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411015592",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-16",
+       "time": "2026-11-16 10:52",
+       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
+       "lat": 43.59484,
+       "lng": -116.260708,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S411015592",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "casfin",
+     "latest": "2026-11-27",
+     "first_flagged": "2026-11-25"
+    },
+    {
+     "taxon_id": null,
+     "sci": "Haemorhous purpureus",
+     "common": "Purple Finch",
+     "flags": [
+      "notable"
+     ],
+     "baseline_count": null,
+     "recent_count": 0,
+     "sources": [
+      "ebird"
+     ],
+     "photo": {
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249715786/medium.jpeg",
+      "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
+      "license": "cc-by-nc"
+     },
+     "sightings": [
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 11:58",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S413556513",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-27",
+       "time": "2026-11-27 11:00",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413606703",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-26",
+       "time": "2026-11-26 10:40",
+       "place": "Kathryn Albertson Park, Boise US-ID (43.6151,-116.2279)",
+       "lat": 43.615062,
+       "lng": -116.227864,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S413295641",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 12:14",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S413147145",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 12:14",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 3,
+       "url": "https://ebird.org/checklist/S413147145",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 12:12",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 2,
+       "url": "https://ebird.org/checklist/S413127317",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 11:36",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413116460",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 11:36",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413116467",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 11:36",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413116469",
+       "quality": "unreviewed"
+      },
+      {
+       "source": "ebird",
+       "date": "2026-11-25",
+       "time": "2026-11-25 11:36",
+       "place": "Kathryn Albertson Park",
+       "lat": 43.614321,
+       "lng": -116.2247446,
+       "count": 1,
+       "url": "https://ebird.org/checklist/S413116464",
+       "quality": "unreviewed"
+      }
+     ],
+     "code": "purfin",
+     "latest": "2026-11-27",
      "first_flagged": "2026-11-25"
     },
     {
@@ -577,139 +810,6 @@
       }
      ],
      "code": "pilwoo",
-     "latest": "2026-11-26",
-     "first_flagged": "2026-11-25"
-    },
-    {
-     "taxon_id": null,
-     "sci": "Haemorhous purpureus",
-     "common": "Purple Finch",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249715786/medium.jpeg",
-      "attribution": "(c) Tom Murray, some rights reserved (CC BY-NC), uploaded by Tom Murray",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-26",
-       "time": "2026-11-26 10:40",
-       "place": "Kathryn Albertson Park, Boise US-ID (43.6151,-116.2279)",
-       "lat": 43.615062,
-       "lng": -116.227864,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S413295641",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 12:14",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 3,
-       "url": "https://ebird.org/checklist/S413147145",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 12:14",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 3,
-       "url": "https://ebird.org/checklist/S413147145",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 12:12",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 2,
-       "url": "https://ebird.org/checklist/S413127317",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 11:36",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413116460",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 11:36",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413116467",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 11:36",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413116469",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 11:36",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S413116464",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 11:12",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 3,
-       "url": "https://ebird.org/checklist/S413115511",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-25",
-       "time": "2026-11-25 08:53",
-       "place": "Kathryn Albertson Park",
-       "lat": 43.614321,
-       "lng": -116.2247446,
-       "count": 3,
-       "url": "https://ebird.org/checklist/S413160942",
-       "quality": "unreviewed"
-      }
-     ],
-     "code": "purfin",
      "latest": "2026-11-26",
      "first_flagged": "2026-11-25"
     },
@@ -1234,95 +1334,6 @@
       }
      ],
      "code": "wlswar",
-     "latest": "2026-11-17",
-     "first_flagged": "2026-11-25"
-    },
-    {
-     "taxon_id": null,
-     "sci": "Haemorhous cassinii",
-     "common": "Cassin's Finch",
-     "flags": [
-      "notable"
-     ],
-     "baseline_count": null,
-     "recent_count": 0,
-     "sources": [
-      "ebird"
-     ],
-     "photo": {
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225768/medium.jpg",
-      "attribution": "(c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
-      "license": "cc-by-nc"
-     },
-     "sightings": [
-      {
-       "source": "ebird",
-       "date": "2026-11-17",
-       "time": "2026-11-17 08:00",
-       "place": "Clear Creek Drive (Boise home)",
-       "lat": 43.5909832,
-       "lng": -116.3173896,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411209861",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-17",
-       "time": "2026-11-17 08:00",
-       "place": "Clear Creek Drive (Boise home)",
-       "lat": 43.5909832,
-       "lng": -116.3173896,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411209861",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-17",
-       "time": "2026-11-17 08:00",
-       "place": "Clear Creek Drive (Boise home)",
-       "lat": 43.5909832,
-       "lng": -116.3173896,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411209861",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-16",
-       "time": "2026-11-16 10:52",
-       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
-       "lat": 43.59484,
-       "lng": -116.260708,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411015592",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-16",
-       "time": "2026-11-16 10:52",
-       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
-       "lat": 43.59484,
-       "lng": -116.260708,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411015592",
-       "quality": "unreviewed"
-      },
-      {
-       "source": "ebird",
-       "date": "2026-11-16",
-       "time": "2026-11-16 10:52",
-       "place": "6324 W Randolph Dr, Boise US-ID 43.59484, -116.26071",
-       "lat": 43.59484,
-       "lng": -116.260708,
-       "count": 1,
-       "url": "https://ebird.org/checklist/S411015592",
-       "quality": "unreviewed"
-      }
-     ],
-     "code": "casfin",
      "latest": "2026-11-17",
      "first_flagged": "2026-11-25"
     },
